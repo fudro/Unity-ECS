@@ -175,6 +175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 516282527}
   - component: {fileID: 516282528}
+  - component: {fileID: 516282529}
   m_Layer: 0
   m_Name: CubeSpawner
   m_TagString: Untagged
@@ -205,12 +206,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 516282526}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2522faf7fb694094cb3f3195be00af23, type: 3}
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 3332787213100091479, guid: 62dfd1fa09253834cbd5dccd5e921a6d, type: 3}
-  rows: 100
-  cols: 100
+  ConversionMode: 0
+--- !u!114 &516282529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516282526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6bf696a52fdc74dadc0411902e9b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cube: {fileID: 6739083882676448050, guid: a62ca3abc5d439c4b848a5a00e0b666c, type: 3}
+  rows: 1000
+  cols: 1000
 --- !u!1 &1073507875
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,8 +393,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1715046319}
-  m_LocalRotation: {x: 0.17456907, y: 0.68406755, z: -0.1739423, w: 0.68652856}
-  m_LocalPosition: {x: -23.523716, y: 32.29113, z: 49.672737}
+  m_LocalRotation: {x: 0.19618781, y: 0.3639921, z: -0.078723855, w: 0.9070958}
+  m_LocalPosition: {x: -89.444534, y: 41.37525, z: -22.112312}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
