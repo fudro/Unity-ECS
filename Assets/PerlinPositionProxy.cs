@@ -3,6 +3,11 @@ using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine;
 
+/*
+ * REFERENCE:
+ * https://youtu.be/zzN8TQTT2qA
+ */
+
 [RequiresEntityConversion]
 public class PerlinPositionProxy : MonoBehaviour, IConvertGameObjectToEntity
 {

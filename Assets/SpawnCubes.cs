@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/* REFERENCE:
+ * https://youtu.be/JCoGiMNSTEc
+ */
+
 public class SpawnCubes : MonoBehaviour
 {
     public GameObject cube;
@@ -16,7 +20,7 @@ public class SpawnCubes : MonoBehaviour
             {
                 GameObject instance = Instantiate(cube);
                 Vector3 pos = new Vector3 (x, 
-                    Mathf.PerlinNoise(x * 0.21f, z * 0.21f),
+                    Mathf.PerlinNoise(x * 0.1f, z * 0.1f),
                     z);
                 instance.transform.position = pos;
             }

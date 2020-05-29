@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using Unity.Entities;
 using UnityEngine;
 
+/*
+ * REFERENCE:
+ * https://youtu.be/zzN8TQTT2qA
+ */
+
 public class SpawnProxy : MonoBehaviour, IDeclareReferencedPrefabs, IConvertGameObjectToEntity
 {
     public GameObject cube;

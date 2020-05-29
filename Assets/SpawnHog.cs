@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/* REFERENCE:
+ * https://youtu.be/JCoGiMNSTEc
+ */
+
 public class SpawnHog : MonoBehaviour
 {
     public GameObject hog;
